@@ -1,5 +1,9 @@
 ;; -*- lexical-binding: t -*-
 (setq debug-on-error t)
+;; 设置源
+(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
+                         ("melpa" . "http://elpa.emacs-china.org/melpa/")
+                         ("org" . "http://elpa.emacs-china.org/org/")))
 
 ;;; This file bootstraps the configuration, which is divided into
 ;;; a number of other files.
